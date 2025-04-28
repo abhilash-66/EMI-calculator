@@ -14,7 +14,6 @@ function calculateEMI(P, r, n) {
     return (P * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
 }
 
-// Handle form submit
 form.addEventListener('submit', (e) => {
     e.preventDefault();
 
